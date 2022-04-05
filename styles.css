@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*body {
+  background: brown;
+}*/
+header {
+  height: 15vh;
+  text-align: center;
+}
+main {
+  display: flex;
+  justify-content: space-between;
+  height: 70vh;
+  padding: 10px;
+}
+section {
+  width: 70%;
+  /*this help to move a content*/
+  display: flex;
+  justify-content: center;
+  /*this part center the text (inside the box)*/
+  align-items: center;
+}
+aside {
+  width: 25%;
+}
+header button {
+  font-size: 36px;
+}
+.blueBg {
+  background: darkblue;
+}
+.goldBg {
+  background: goldenrod;
+}
+.whiteText {
+  color: white;
+}
+
+#wordPara {
+  /*this make the word bigger*/
+  font-size: 60px;
+}

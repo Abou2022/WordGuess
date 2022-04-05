@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="blueBg">
+      <h1 class="whiteText">Word Guess Game</h1>
+      <button id="Start" class="goldBg">Start game</button>
+    </header>
+    <main>
+      <section class="goldBg">
+        <p id="wordPara">_a_a_ _ _</p>
+      </section>
+      <aside class="goldBg">
+        <div class="scoreBox">
+          <h3>Wins <span id="winsSpan"></span></h3>
+          <h3>Losses <span id="lossesSpan"></span></h3>
+          <button id="resetBtn">reset</button>
+        </div>
+        <div class="timeBox">
+          <p><span id="timePara">10</span> seconds left!</p>
+        </div>
+      </aside>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
