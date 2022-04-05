@@ -2,6 +2,7 @@
     //create a collection of words
     var wordPara = document.querySelector("#wordPara");
     var startBtn = document.querySelector(".goldBg");
+    
     var timePara = document.querySelector("#timePara");
     var lossesSpan = document.querySelector("#lossesSpan")
     var winsSpan = document.querySelector("#winsSpan")
@@ -89,3 +90,13 @@ document.addEventListener("keyup", function(event){
     }
 }
 });
+ //reset scores
+document.querySelector("#resetBtn").addEventListener("click",function(){
+    wins = 0;
+    losses=0;
+    localStorage.setItem("wins",0)
+    localStorage.setItem("losses",0)
+    winsSpan.textContent=0;
+    lossesSpan.textContent=0;
+    
+ })
